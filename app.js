@@ -1,4 +1,4 @@
-const MONGODB_URI =  "mongodb+srv://shivam:Q3SMre82jkOFKlK1@cluster0.uq80n.mongodb.net/uploadImage?retryWrites=true&w=majority";
+const MONGODB_URI =  `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster0.uq80n.mongodb.net/uploadImage?retryWrites=true&w=majority`;
 
 
 
